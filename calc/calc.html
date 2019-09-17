@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Naive Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calc.css">
+</head>
+<body>
+<h1>iCalc!</h1>
+<div class="grid-container">
+	<div id="display" class="grid-item">0</div>
+	<div id="G7" class="grid-item">7</div>
+	<div id="G8" class="grid-item">8</div>
+	<div id="G9" class="grid-item">9</div>
+	<div id="plus" class="grid-item">+/=</div>
+	<div id="G4" class="grid-item">4</div>
+	<div id="G5" class="grid-item">5</div>
+	<div id="G6" class="grid-item">6</div>
+	<div id="minus" class="grid-item">-</div>
+	<div id="G1" class="grid-item">1</div>
+	<div id="G2" class="grid-item">2</div>
+	<div id="G3" class="grid-item">3</div>
+	<div id="times" class="grid-item">&times;</div>
+	<div id="clear" class="grid-item">C</div>
+	<div id="G0" class="grid-item">0</div>
+	<div id="dot" class="grid-item">.</div>
+	<div id="divide" class="grid-item">&divide;</div>
+</div>
+
+<div>
+	<h1>Instruction</h1>
+	<ul id="instruction">
+		<li>Follow the basic arithmatic rule.</li>
+		<li>After pressing any operator, "+/=" will represent "=". Pressing "+/=" will reset the button to represent "+".</li>
+		<li>If last pressed button is an operator, pressing "-", "&times;, "&divide;" will override it, while pressing "+/=" will apply previous operator with displayed number as two operands.</li>
+		<li>If last pressed button is a number(or dot), pressing "-", "&times;, "&divide;" will first calculate the result and then activate the pressed operator.</li>
+		<li>Pressing "-" right after pressing another operator(including "=") renders negative number, while pressing after number will still give you the effect from minus.</li>
+
+	</ul>
+	
+</div>
+
+<script src="calc.js"></script>
+</body>
+</html>
