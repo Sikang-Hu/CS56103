@@ -11,7 +11,7 @@ hw02.sikang.site
 
 3. What's the link to your repository on github with your code?
 
-https://github.com/Sikang-Hu/cs5610_hw02/
+https://github.com/Sikang-Hu/CS56103.git
 
 4. How many HTML / CSS tutorial exercises did you do?
 
